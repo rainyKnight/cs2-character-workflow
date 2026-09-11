@@ -1,0 +1,6 @@
+interface:
+  display_name: "CS2 通用角色转模"
+  short_description: "用户提供人物，复用基础手模，完成转模并支持检查点与扩展预留"
+  default_prompt: "使用 $cs2-character-workflow 处理我提供的角色，复用通用第一人称手模，自动存档并在指定阶段让我检查。"
+policy:
+  allow_implicit_invocation: true

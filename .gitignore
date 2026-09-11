@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.validation_deps/
+.env
+.env.*
+!.env.example
+/projects/
+/runs/
+/test-runs/
+/dist/
+/local-assets/
+/local-config.json
+*.log
+Thumbs.db
+.DS_Store

@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "id": "shared-firstperson-hands",
+  "kind": "reusable_unclothed_firstperson_hand_mesh",
+  "source_mesh": "source/hands.dmx",
+  "source_format": "DMX binary 9",
+  "mesh_count": 1,
+  "triangles": 12336,
+  "source_joint_count": 191,
+  "skeleton_note": "Source includes export-time compatibility bones; map the required hand bones to each project. This is not a required character skeleton.",
+  "sleeves_included": false,
+  "full_character_mesh_included": false,
+  "material_resources": [
+    "characters/models/exg/ruiyiwelkin/tarkov_bear_manuka/body.vmat",
+    "models/manuka_showcase/materials/nails_pink_fp11.vmat"
+  ],
+  "materials_note": "Exact accepted compiled skin and nail materials with their texture closure. Original resource paths retained for consistency; not model-selection requirements.",
+  "provenance": {
+    "origin": "BA Mari first-person hand mesh adapted and cleaned in the preceding project",
+    "acceptance": "User accepted the clean hand geometry and soft pink nail material",
+    "distribution_scope": "Only this reusable hand mesh and required materials; no full character or outfit"
+  },
+  "files": {
+    "runtime/characters/models/exg/ruiyiwelkin/tarkov_bear_manuka/body.vmat_c": {
+      "bytes": 4144,
+      "sha256": "8ef5a6dd6192c2525d06074543956e6144d5320c5afd91cbcdb26f5e0bf6c474"
+    },
+    "runtime/characters/models/exg/ruiyiwelkin/tarkov_bear_manuka/body_png_3c404024.vtex_c": {
+      "bytes": 701164,
+      "sha256": "63bfe6053d15103dc236e7f1c6e0314544a19d300e4ebae29b3cd13b3f249b38"
+    },
+    "runtime/characters/models/exg/ruiyiwelkin/tarkov_bear_manuka/body_vmat_g_tmetalness_b70f8f59_png_32f278a3.vtex_c": {
+      "bytes": 2516,
+      "sha256": "8d47b2ec835406457645e0cabe67c8bbc2fbec7de6ee4e6d3a367e7f42693fdd"
+    },
+    "runtime/characters/models/exg/ruiyiwelkin/tarkov_bear_manuka/body_vmat_g_tnormal_39f35f01_png_1f907649.vtex_c": {
+      "bytes": 2368,
+      "sha256": "91d4d11beddfa723258bd7cf3f879182c42d8fb0f28c2f6721ab43b4a6f930db"
+    },
+    "runtime/materials/default/default_ao_tga_559f1ac6.vtex_c": {
+      "bytes": 2232,
+      "sha256": "586f4195daee354bde2fd60617351645665f18a335b8d3d8a1bfb0fac341a528"
+    },
+    "runtime/models/manuka_showcase/materials/nails_pink_fp11.vmat_c": {
+      "bytes": 3855,
+      "sha256": "1103828df989e4ebeac6d491781aa8c98c3bf484c5d5c8ab37ffa482878a8bed"
+    },
+    "runtime/models/manuka_showcase/materials/nails_pink_fp11_vmat_g_tcolor_dd7a426a.vtex_c": {
+      "bytes": 1992,
+      "sha256": "4c11185028f1882314f6aa45f66c8ef2179aeafce624bcbf7500d6d8353b2f7d"
+    },
+    "runtime/models/manuka_showcase/materials/nails_pink_fp11_vmat_g_tmetalness_863a4f2.vtex_c": {
+      "bytes": 2624,
+      "sha256": "b1c0d4d6cbe14d9a1aa1c4907b65f16b61fd53d9c16aa1aef6b2b9183217514c"
+    },
+    "runtime/models/manuka_showcase/materials/nails_pink_fp11_vmat_g_tnormal_91e5ab44.vtex_c": {
+      "bytes": 2288,
+      "sha256": "3a9f89f766a63f6df8a7cfd7d0966c7b2da10ae04a5c2b8de0ba28a5f4df9432"
+    },
+    "source/hands.dmx": {
+      "bytes": 924350,
+      "sha256": "f714878e1e501d04ca9e088df91b1657b49545bdd0b8419226d40738d7645f4b"
+    }
+  }
+}
