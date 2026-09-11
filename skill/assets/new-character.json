@@ -35,7 +35,17 @@
       "ears": "if present",
       "tail": "if present",
       "clothes": "user preference",
-      "idle_wind": "configure after stable moving roots"
+      "idle_wind": "configure after stable moving roots",
+      "response": {
+        "chain_profiles": [],
+        "return_time_seconds": null,
+        "low_speed_validation": "not_tested",
+        "gunfire": {
+          "mode": "native_animation",
+          "dedicated_driver_status": "unimplemented",
+          "validation_status": "not_tested"
+        }
+      }
     },
     "hitboxes": {
       "hands": "one sphere per hand",
@@ -109,7 +119,7 @@
     {
       "id": "physics",
       "kind": "agent",
-      "instruction": "Read references/stages.md, perform this stage, write actual artifacts and evidence. Do not mark unimplemented work passed. For request.wardrobe, read references/wardrobe.md and write this stage own wardrobe.json; inherit previous stage data without editing prior outputs. For request.expressions, read references/expressions.md; audit and preserve original facial data, and write this stage own expressions.json.",
+      "instruction": "Read references/stages.md, perform this stage, write actual artifacts and evidence. Do not mark unimplemented work passed. For request.wardrobe, read references/wardrobe.md and write this stage own wardrobe.json; inherit previous stage data without editing prior outputs. For request.expressions, read references/expressions.md; audit and preserve original facial data, and write this stage own expressions.json. Read references/physics.md. Record selected chains, per-component bending/return goals, compiled-check requirements and response validation scope in result.json. Do not mark a dedicated gunfire driver implemented from native animation response or general visual acceptance.",
       "outputs": [
         "stages/physics/result.json",
         "stages/physics/wardrobe.json",
